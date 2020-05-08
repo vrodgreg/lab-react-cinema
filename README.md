@@ -162,11 +162,11 @@ Here, you have to create a view to display all the info about each movie. You ne
 
 ### Iteration 5 | Add a Movie (Bonus)
 
-## Iteration 5 (Part 1)
+#### Iteration 5 (Part 1)
 
 For the bonus, you have to create a view to inster a new movie. You need a `movie` POST route, where the user can enter all the info about each movie(for this iteration you can just reference an URL form web for movie image), and create a new movie after clicking on the Save button on the `/movies/new` page.
 
-## Iteration 5 (Part 2)
+#### Iteration 5 (Part 2)
 
 Finally, we can insert a new image for the movie(talk to Niko, Juan and Stefan after you are done with previous iterations)
 
