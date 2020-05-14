@@ -156,7 +156,7 @@ On the `/movies` route, we need to list all the movies we have in our database. 
 
 ### Iteration 4 | Display Movie Info
 
-Here, you have to create a view to display all the info about each movie. You need a `movie/:id` route, where the user can check all the info about each movie, after clicking on the `See More` button on the `/movies` page.
+Here, you have to create a page to display all the info about each movie. You need a `movie/:id` route, where the user can check all the info about each movie, after clicking on the `See More` button on the `/movies` page.
 
 ![image](https://user-images.githubusercontent.com/23629340/36986933-6f8060b4-209b-11e8-8571-496914f9ae96.png)
 
@@ -164,12 +164,12 @@ Here, you have to create a view to display all the info about each movie. You ne
 
 #### Iteration 5 (Part 1)
 
-For the bonus, you have to create a view to inster a new movie. You need a `movie` POST route, where the user can enter all the info about each movie(for this iteration you can just reference an URL form web for movie image), and create a new movie after clicking on the Save button on the `/movies/new` page.
+For the bonus, you have to create a page to inster a new movie. You need a `movie` POST route, where the user can enter all the info about each movie(for this iteration you can just reference an URL form web for movie image), and create a new movie after clicking on the Save button on the `/movies/new` page.
 
 #### Iteration 5 (Part 2)
 
-Finally, we can insert a new image for the movie(talk to Niko, Juan and Stefan after you are done with previous iterations)
+Finally, we can insert a new image for the movie(talk to your LT/TA after you are done with previous iterations)
 
-![image](https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg)
+![image](https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg =250x250)
 
 Happy Coding! :heart:
