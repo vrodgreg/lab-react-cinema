@@ -32,7 +32,7 @@ $ git push origin master
 After forking and cloning the project, you will have to add a `starter_code/.env` file:
 
 ```
-PORT=3000
+PORT=5000
 ```
 
 And you have to install all the dependencies:
