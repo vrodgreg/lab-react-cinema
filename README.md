@@ -168,7 +168,7 @@ For the bonus, you have to create a page to inster a new movie. You need a `movi
 
 #### Iteration 5 (Part 2)
 
-Finally, we can insert a new image for the movie. You will want to store your image <a href="https://my.ironhack.com/lms/courses/course-v1:IRONHACK+WDFT+202003_MIA/units/ironhack-course-chapter_7-sequential-vertical_1" target="_blank">somewhere</a>(talk to your LT/TA after you are done with previous iterations)
+Finally, we can insert a new image for the movie. You will want to store your <a href="https://my.ironhack.com/lms/courses/course-v1:IRONHACK+WDFT+202003_MIA/units/ironhack-course-chapter_7-sequential-vertical_1" target="blank">image</a>(talk to your LT/TA after you are done with previous iterations)
 
 <img src="https://camo.githubusercontent.com/31e64d1fe782ded4cf0e673f16c623ae3987cf31/68747470733a2f2f6d2e6d656469612d616d617a6f6e2e636f6d2f696d616765732f4d2f4d5635424d6d457a4e546b78596a51745a5463304d4330305954566a4c5467355a5445745a574d774f57566c597a59304e574977586b4579586b467163476465515856794e7a6b774d6a51354e7a4d402e5f56315f5359313030305f4352302c302c3636362c313030305f414c5f2e6a7067" width="250" height="400">
 
