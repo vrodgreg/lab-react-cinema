@@ -29,15 +29,15 @@ $ git push origin master
 
 ### Iteration 0 | Initialize the project
 
-After forking and cloning the project, you will have to add a `starter_code/.env` file:
+After forking and cloning the project, you will have to add a `.env` file in the root and add the following into it:
 
-```
+```shell
 PORT=5000
 ```
 
 And you have to install all the dependencies:
 
-```sh
+```shell
 $ cd lab-react-cinema
 $ npm install
 $ cd client
