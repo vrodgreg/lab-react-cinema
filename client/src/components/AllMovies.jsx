@@ -9,21 +9,28 @@ function AllMovies(props) {
   useEffect(() => {
     axios.get("http://localhost:5000/get-all-movies")
     .then(res => {
-      console.log('res.data', res.data)
-      let copyFilms = res.data
-      console.log('copyFilms', copyFilms)
+      // console.log('res.data', res.data)
+      // let copyFilms = res.data
+      // console.log('copyFilms', copyFilms)
       setFilms(res.data)
-      console.log('films', films)
     })
+
     
   }, []);
+
+  console.log('films', films)
 
   const displayMovies = () => {
     return films.map(eachMovie => {
       return (
+        <div>
+        <img src={eachMovie.image} alt={eachMovie.title} />
+        <p>{eachMovie.title}</p>
         <Link to={`/AllMovies/${eachMovie._id}`}>
-        <li key={eachMovie._id}>{eachMovie.title}</li>
+        <p>Click for Detail</p>
+        {/* <li key={eachMovie._id}>Click for detail</li> */}
         </Link>
+        </div>
       )
     })
   }
@@ -34,7 +41,9 @@ function AllMovies(props) {
     <div>
       <h1>IRONHACK CINEMA</h1>
       <h3>Click on the movie to see the showtimes.</h3>
-      <ul>{displayMovies()}</ul>
+      <div className="movieList"> 
+      {displayMovies()}
+      </div>
     </div>
   );
 }
