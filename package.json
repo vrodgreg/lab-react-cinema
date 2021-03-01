@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vrodgreg/lab-react-cinema/issues"
   },
-  "homepage": "https://github.com/vrodgreg/lab-react-cinema#readme"
+  "homepage": "https://github.com/vrodgreg/lab-react-cinema#readme",
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

@@ -1,9 +1,9 @@
 ///require mongoose
 // need schmea  Movies????
 const mongoose = require("mongoose");
-const Movie = require("../models/Movie.model.js");
+const MovieColl = require("../models/MovieCollection.model.js");
 
-const movies = [
+const dbmovies = [
   {
     title: "A Wrinkle in Time",
     director: "Ava DuVernay",
@@ -94,15 +94,18 @@ mongoose
   })
   .then((x) => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`);
-    Movie.deleteMany({})
+    MovieColl.deleteMany({})
   })
   .then(async() => {
-    await Movie.insertMany(movies).then(console.log())
+    await MovieColl.insertMany(dbmovies).then(console.log())
   })
 
 
-// const addData = (movies) => {
-//   console.log("adding data", movies);
-// };
+
+
+  
+  
+
+
 
 

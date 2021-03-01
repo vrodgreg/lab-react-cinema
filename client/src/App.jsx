@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Axios from 'axios';
+// import Axios from 'axios';
 import Home from './components/Home';
-import Movies from './components/Movies';
+import AllMovies from './components/AllMovies';
 import AddMovie from './components/AddMovie'
+import './app.css';
+import MovieDetails from './components/MovieDetails';
 
 
 class App extends Component {
@@ -15,7 +17,8 @@ class App extends Component {
 
       <Switch>
         <Route exact path="/" render={(props) => < Home {...props} />} />
-        <Route exact path="/movies" render={(props) => < Movies {...props} />} />
+        <Route exact path="/allMovies" render={(props) => < AllMovies {...props} />} />
+        <Route exact path="/allMovies/:id" render={(props) => < MovieDetails {...props} />} />
         <Route exact path="/addMovie" render={(props) => < AddMovie {...props} />} />
       </Switch>
 
